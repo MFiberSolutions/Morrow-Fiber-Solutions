@@ -3,39 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morrow Fiber Solutions - Fiber Optic Experts</title>
+    <title>Morrow Fiber Solutions - Fiber Optic Services and Experts</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png">
-
     <!-- Essential SEO Meta Tags -->
-    <meta name="description" content="Morrow Fiber Solutions - High-Performance Fiber Optic Services, including fiber splicing, outage restoration, and network optimization.">
-    <meta name="keywords" content="fiber optics, network solutions, fiber splicing, ISP services, emergency fiber repair, network optimization">
-    <meta name="author" content="Morrow Fiber Solutions">
+    <meta name="description" content="M-Fiber Solutions - High-Performance Fiber Optic Services including fiber splicing, outage restoration, and network optimization. Reliable, fast, and professional.">
+    <meta name="keywords" content="fiber optics, network solutions, fiber splicing, ISP services, outage restoration, fiber builds">
+    <meta name="author" content="M-Fiber Solutions">
     <meta name="robots" content="index, follow">
-
-    <!-- Open Graph (for Facebook, Snapchat, LinkedIn, Discord) -->
     <meta property="og:title" content="Morrow Fiber Solutions | Fiber Optic Experts">
     <meta property="og:description" content="Providing top-tier fiber splicing, outage restoration, and network solutions for businesses and ISPs.">
     <meta property="og:image" content="https://www.mfibersolutions.com/preview.jpg">
     <meta property="og:url" content="https://www.mfibersolutions.com">
     <meta property="og:type" content="website">
-
-    <!-- Twitter Card (for Twitter/X) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Morrow Fiber Solutions | Fiber Optic Experts">
+    <meta name="twitter:title" content="M-Fiber Solutions | Fiber Optic Experts">
     <meta name="twitter:description" content="Reliable fiber optic solutions for businesses, ISPs, and commercial networks.">
     <meta name="twitter:image" content="https://www.mfibersolutions.com/preview.jpg">
-
-    <!-- Structured Data for SEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Morrow Fiber Solutions",
+      "name": "M-Fiber Solutions",
       "url": "https://mfibersolutions.com",
       "description": "High-performance fiber optic solutions, splicing, outage restoration, and network builds. Reliable. Fast. Professional.",
       "image": "https://mfibersolutions.com/preview.jpg"
@@ -43,72 +33,285 @@
     </script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <img src="logo.png" alt="Morrow Fiber Solutions Logo">
+    <div class="page-wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo-wrapper">
+                    <div class="logo-container">
+                        <div class="logo-shape"></div>
+                        <span class="logo-text">MFS</span>
+                    </div>
+                    <span class="company-name">MORROW FIBER SOLUTIONS</span>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact" class="cta-button">Contact Us</a></li>
+                </ul>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle" id="mobile-menu">
-                <span></span><span></span><span></span>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Connecting Your World with Fiber Excellence</h1>
+                <p>High-performance fiber optic solutions for ISPs, businesses, and municipalities</p>
+                <a href="#contact" class="btn primary-btn">Get Started</a>
+                <a href="#services" class="btn secondary-btn">Explore Services</a>
             </div>
-        </div>
-    </nav>
+            <div class="hero-visual">
+                <div class="fiber-line fiber-blue"></div>
+                <div class="fiber-line fiber-orange"></div>
+                <div class="fiber-line fiber-green"></div>
+                <div class="fiber-line fiber-purple"></div>
+            </div>
+        </section>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Reliable Fiber Solutions, Built for Speed & Precision</h1>
-            <p>Specializing in emergency fiber optic repairs, network builds, and outage restoration.</p>
-            <a href="#contact" class="btn primary-btn">Get a Quote</a>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Morrow Fiber Solutions delivers high-performance fiber optic services for businesses, ISPs, and municipalities. From troubleshooting to new fiber network builds, we ensure efficiency, precision, and reliability in every project.</p>
-        </div>
-    </section>
-
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <h3>Fiber Splicing</h3>
-                    <p>Precision fusion splicing for seamless, high-speed connectivity.</p>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Morrow Fiber Solutions</h2>
+                    <div class="underline"></div>
                 </div>
-                <div class="service-card">
-                    <h3>Emergency Repairs</h3>
-                    <p>Rapid fiber restoration for outages and storm damage.</p>
-                </div>
-                <div class="service-card">
-                    <h3>New Fiber Builds</h3>
-                    <p>End-to-end fiber deployment, from planning to execution.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Network Optimization</h3>
-                    <p>Boosting fiber performance for ISPs, enterprises, and municipalities.</p>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Based in eastern Iowa, <strong>Morrow Fiber Solutions</strong> delivers high-performance fiber optic services for businesses, ISPs, and municipalities. Our expertise includes <strong>network builds, fiber splicing, troubleshooting and rapid outage restoration</strong>.</p>
+                        <p>Whether optimizing an existing infrastructure or deploying a new high-speed fiber network, we ensure efficiency, precision, and reliability in every project.</p>
+                        
+                        <div class="highlight-box">
+                            <h3>What Sets Us Apart?</h3>
+                            <ul class="feature-list">
+                                <li>
+                                    <div class="feature-icon rapid-icon"></div>
+                                    <div class="feature-content">
+                                        <h4>Rapid Response</h4>
+                                        <p>Minimized downtime, maximized performance.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feature-icon expertise-icon"></div>
+                                    <div class="feature-content">
+                                        <h4>Industry Expertise</h4>
+                                        <p>Years of experience in fiber installation and troubleshooting.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="feature-icon custom-icon"></div>
+                                    <div class="feature-content">
+                                        <h4>Tailored Solutions</h4>
+                                        <p>Custom fiber network designs to meet unique client needs.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <div class="mfs-logo-large">
+                                <div class="logo-curves">
+                                    <div class="curve curve-blue"></div>
+                                    <div class="curve curve-orange"></div>
+                                    <div class="curve curve-green"></div>
+                                    <div class="curve curve-purple"></div>
+                                </div>
+                                <div class="logo-text-large">MFS</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfpBZusnqKKeruESefK1pAY0r2jm2U84V7JWPyWTq6g5eFeQ/viewform?embedded=true" width="100%" height="800px" frameborder="0"></iframe>
-        </div>
-    </section>
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="service-grid">
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-icon splicing-icon"></div>
+                        <h3>Fiber Splicing</h3>
+                        <p>Precision fusion splicing for seamless, high-speed connectivity.</p>
+                        <a href="#contact" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon restoration-icon"></div>
+                        <h3>Outage Restoration</h3>
+                        <p>Emergency fiber repair to get your network back online fast.</p>
+                        <a href="#contact" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon builds-icon"></div>
+                        <h3>New Fiber Builds</h3>
+                        <p>End-to-end fiber network deployment, from planning to execution.</p>
+                        <a href="#contact" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon optimization-icon"></div>
+                        <h3>Network Optimization</h3>
+                        <p>Boosting fiber performance for ISPs, enterprises, and municipalities.</p>
+                        <a href="#contact" class="service-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Morrow Fiber Solutions. Fully insured. All rights reserved.</p>
-        </div>
-    </footer>
+        <!-- Process Section -->
+        <section class="process">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Process</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Consultation</h3>
+                            <p>We begin with a thorough assessment of your fiber needs and goals.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Planning</h3>
+                            <p>Detailed project scope and specifications tailored to your requirements.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Execution</h3>
+                            <p>Precise implementation with our expert technicians and state-of-the-art equipment.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Testing</h3>
+                            <p>Rigorous quality assurance to ensure optimal fiber network performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Us</h2>
+                    <div class="underline"></div>
+                    <p>For service inquiries, network assessments, or consultation, please fill out the form below.</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon location-icon"></div>
+                            <h3>Location</h3>
+                            <p>Eastern Iowa</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon email-icon"></div>
+                            <h3>Email</h3>
+                            <p>info@mfibersolutions.com</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon phone-icon"></div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">-- Select a Service --</option>
+                                    <option value="fiber-splicing">Fiber Splicing</option>
+                                    <option value="outage-restoration">Outage Restoration</option>
+                                    <option value="new-builds">New Fiber Builds</option>
+                                    <option value="optimization">Network Optimization</option>
+                                    <option value="other">Other/Not Sure</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <div class="logo-container footer-logo-container">
+                            <div class="logo-shape"></div>
+                            <span class="logo-text">MFS</span>
+                        </div>
+                        <p>Morrow Fiber Solutions</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="link-group">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#services">Fiber Splicing</a></li>
+                                <li><a href="#services">Outage Restoration</a></li>
+                                <li><a href="#services">New Fiber Builds</a></li>
+                                <li><a href="#services">Network Optimization</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Morrow Fiber Solutions. Fully insured. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
 </body>
 </html>
