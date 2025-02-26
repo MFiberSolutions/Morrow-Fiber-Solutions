@@ -13,37 +13,15 @@ header {
     background: linear-gradient(90deg, #000428, #004e92);
     padding: 60px 20px;
     text-align: center;
+}
+
 .tech-title {
     font-family: 'Orbitron', sans-serif;
-    font-size: 44px;  /* Slightly smaller for a more refined look */
+    font-size: 48px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    background: linear-gradient(135deg, #00d4ff, #0072ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 4px rgba(0, 255, 255, 0.5);
-    transition: text-shadow 0.5s ease-in-out, transform 0.3s ease-in-out;
-}
-
-/* Smooth glow pulse effect */
-@keyframes subtle-glow {
-    0% {
-        text-shadow: 0px 0px 5px rgba(0, 255, 255, 0.4);
-    }
-    100% {
-        text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
-    }
-}
-
-/* Apply subtle pulsing effect */
-.tech-title {
-    animation: subtle-glow 3s infinite alternate ease-in-out;
-}
-
-/* Hover Effect - Very Smooth */
-.tech-title:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease-in-out;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.9);
 }
 
 .subheading {
