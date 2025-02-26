@@ -1,11 +1,11 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Press Start 2P', cursive; /* Full Retro Feel */
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     color: #000000;
     text-align: center;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Jazz_pattern.svg'); /* 90s Splash Cup pattern */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Jazz_pattern.svg'); /* Splash Cup */
     background-size: cover;
 }
 
@@ -29,6 +29,22 @@ header {
     text-shadow: 0px 0px 12px rgba(0, 255, 255, 0.9);
 }
 
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    color: #ff4081;
+    text-shadow: 2px 2px #00bcd4;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.6;
+}
+
 .cta-button {
     display: inline-block;
     background: #ff4081;
@@ -36,7 +52,7 @@ header {
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 25px;
     border: 2px solid white;
     transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
@@ -46,7 +62,6 @@ header {
 .cta-button:hover {
     transform: scale(1.1);
     background: #00bcd4;
-    border: 2px solid #ffffff;
 }
 
 nav ul {
@@ -66,7 +81,7 @@ nav ul li {
 nav ul li a {
     color: #ff4081;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     transition: color 0.2s ease-in-out;
 }
@@ -79,7 +94,7 @@ section {
     padding: 40px;
     max-width: 900px;
     margin: auto;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     margin-top: 20px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -100,7 +115,8 @@ section {
     width: 48%;
     margin-bottom: 10px;
     transition: transform 0.2s;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -115,6 +131,6 @@ footer {
     background: #ff4081;
     color: #ffffff;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
