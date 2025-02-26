@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
 
-    // Mobile menu toggle
+    // Mobile menu toggle with animation
     menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
         const isActive = navLinks.classList.contains('active');
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isActive) {
                 if (index === 0) bar.style.transform = 'rotate(45deg) translate(5px, 5px)';
                 if (index === 1) bar.style.opacity = '0';
-                if (index === 2) bar.style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                if (index === 2) bar.style.transform = 'rotate(-45deg) translate(6px, -6px)';
             } else {
                 bar.style.transform = 'none';
                 bar.style.opacity = '1';
