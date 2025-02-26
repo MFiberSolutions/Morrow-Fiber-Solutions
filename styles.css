@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #4b0082, #8a2be2, #da70d6);
+    background: url('https://i.imgur.com/8OLzjWy.png'); /* 90s Splash Cup pattern */
+    background-size: cover;
     padding: 50px 20px;
     animation: glow 3s infinite alternate;
 }
@@ -18,15 +19,26 @@ header {
     to { box-shadow: 0 0 20px #da70d6; }
 }
 
+.tech-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ffff;
+    text-shadow: 0px 0px 12px rgba(0, 255, 255, 0.9);
+}
+
 .cta-button {
     display: inline-block;
     background: #ff4500;
     color: white;
-    padding: 15px 25px;
+    padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     border-radius: 10px;
     transition: transform 0.2s ease-in-out;
+    margin-top: 10px;
 }
 
 .cta-button:hover {
@@ -36,26 +48,28 @@ header {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px 0;
     background: #282828;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
     display: inline;
-    margin: 15px;
 }
 
 nav ul li a {
     color: #f39c12;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section {
     padding: 40px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(20, 20, 20, 0.9);
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
@@ -65,20 +79,22 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
 }
 
 .service-item {
     background: #8a2be2;
     color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
-    width: 45%;
-    margin: 10px;
+    width: 48%;
+    margin-bottom: 10px;
     transition: transform 0.2s;
+    font-size: 16px;
 }
 
 .service-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 footer {
@@ -87,4 +103,5 @@ footer {
     background: #222;
     color: #ffffff;
     margin-top: 20px;
+    font-size: 14px;
 }
