@@ -42,7 +42,7 @@ h2 {
 
 .logo {
     width: 180px; /* Adjust size as needed */
-    max-height: 80px;
+    max-height: 100px;
     object-fit: contain;
 }
 
