@@ -4,6 +4,7 @@ body {
     padding: 0;
     color: #333;
     background: #f9f9f9;
+    padding-top: 80px; /* Added to prevent overlap with fixed nav */
 }
 
 .container {
@@ -38,7 +39,7 @@ h2 {
 .logo-wrapper {
     flex-grow: 1;
     display: flex;
-    justify-content: center; /* Centers logo */
+    justify-content: center;
 }
 
 .logo {
@@ -311,23 +312,27 @@ footer {
     }
 }
 
-/* Styles for emergency-repair-otdr.html */
+/* Styles for emergency-repair.html */
 header {
-    background: linear-gradient(135deg, #0055ff, #ff8000); /* Matches .hero */
+    /* No direct styles here; .main-nav handles the nav bar */
+}
+
+.header-content {
+    background: linear-gradient(135deg, #0055ff, #ff8000);
     color: #fff;
-    padding: 100px 20px 60px; /* Offset for fixed nav */
     text-align: center;
+    padding: 60px 20px;
     position: relative;
 }
 
-header h1 {
+.header-content h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 3rem;
     margin-bottom: 20px;
-    animation: pulse 2s infinite; /* Matches homepage h1 */
+    animation: pulse 2s infinite;
 }
 
-header p {
+.header-content p {
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -345,7 +350,7 @@ section {
 section h2 {
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #0055ff; /* Blue from gradient */
+    color: #0055ff;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -368,21 +373,19 @@ section li {
 }
 
 section a {
-    color: #0055ff; /* Matches .service-link */
+    color: #0055ff;
     text-decoration: none;
     font-weight: 600;
 }
 
 section a:hover {
-    color: #ff8000; /* Matches hover states */
+    color: #ff8000;
 }
 
-/* Reuse .container for consistency */
 .emergency-content .container {
     padding: 0 20px;
 }
 
-/* Footer matches homepage */
 footer {
     background: #333;
     color: #fff;
@@ -398,15 +401,14 @@ footer a:hover {
     color: #0055ff;
 }
 
-/* Responsive tweaks for new page */
 @media (max-width: 768px) {
-    header {
-        padding: 80px 10px 40px;
+    .header-content {
+        padding: 40px 10px;
     }
-    header h1 {
+    .header-content h1 {
         font-size: 2rem;
     }
-    header p {
+    .header-content p {
         font-size: 1rem;
     }
     section h2 {
