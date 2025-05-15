@@ -12,44 +12,20 @@ body {
   line-height: 1.6;
 }
 
-.nav {
+.nav.center-header {
   background: #fff;
   padding: 1rem 2rem;
   border-bottom: 1px solid #ddd;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
-  height: 40px;
-  margin-right: 1rem;
-}
-
-.site-title {
-  font-weight: 600;
-  font-size: 1.2rem;
-  color: #222;
-}
-
-.nav a {
-  margin-left: 2rem;
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.nav a:hover {
-  color: #0077cc;
+  height: 48px;
 }
 
 .hero {
@@ -58,13 +34,13 @@ body {
   background: #eaf2f8;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
+.hero-inner h1 {
+  font-size: 2.8rem;
   margin-bottom: 1rem;
 }
 
-.hero p {
-  font-size: 1.1rem;
+.hero-inner p {
+  font-size: 1.2rem;
   color: #444;
 }
 
@@ -72,6 +48,7 @@ body {
   padding: 4rem 2rem;
   max-width: 1000px;
   margin: auto;
+  text-align: center;
 }
 
 .section h2 {
@@ -88,6 +65,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  margin-top: 2rem;
+  text-align: left;
 }
 
 .card {
