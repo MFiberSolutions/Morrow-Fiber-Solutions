@@ -3,84 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MFS | Fiber Reinvented</title>
-
-  <!-- FONTS + STYLES -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <title>Morrow Fiber Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
-  <link rel="icon" href="favicon.png" />
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="main-nav">
-    <div class="nav-container">
-      <img src="NewMFSLogo.png" alt="Morrow Fiber Solutions Logo" class="logo" />
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact" class="cta-button">Contact</a></li>
-      </ul>
-    </div>
+<header class="nav">
+  <div class="logo-line">
+    <img src="NewMFSLogo.png" class="logo" alt="MFS Logo">
+    <span class="brand-title">morrow fiber solutions</span>
+  </div>
+  <nav class="terminal-nav">
+    <a href="#services">&gt; services</a>
+    <a href="#coverage">&gt; coverage</a>
+    <a href="#dispatch">&gt; dispatch</a>
   </nav>
+</header>
 
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="hero-stripes"></div>
-    <div class="hero-content">
-      <h1>Reliable Fiber Solutions</h1>
-      <p>High standards. Modern infrastructure. Minimal downtime.</p>
+<main class="terminal">
+
+  <section class="hero">
+    <div class="glitch-header">
+      <h1><span class="glitch" data-text="fiber. up. always.">fiber. up. always.</span></h1>
+      <p class="subtext">tactical fiber deployments / emergency response / clean signal</p>
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section id="services" class="services container">
-    <h2>Our Services</h2>
-    <div class="services-grid">
-      <div class="service">
-        <h3>Precision Splicing</h3>
-        <p>Low-loss, high-speed fusion splicing—done right the first time.</p>
+  <section id="services" class="section">
+    <h2>// services</h2>
+    <div class="grid services-grid">
+      <div class="card">
+        <h3>fusion splicing</h3>
+        <p>&#x2713; precision terminations<br>&#x2713; OTDR validation<br>&#x2713; slack loop management</p>
       </div>
-      <div class="service">
-        <h3>Emergency Repair</h3>
-        <p>24/7 rapid response. Fault isolation and restoration without delay.</p>
+      <div class="card">
+        <h3>24/7 outage recovery</h3>
+        <p>&#x2713; midspan faults<br>&#x2713; restoration via bucket/underground<br>&#x2713; triage + re-splice</p>
       </div>
-      <div class="service">
-        <h3>Network Builds</h3>
-        <p>Turnkey FTTH, backbone, and MDU deployment. Scalable. Clean. Efficient.</p>
+      <div class="card">
+        <h3>mdu + ftth builds</h3>
+        <p>&#x2713; risers, closets, drop fiber<br>&#x2713; neat panels<br>&#x2713; subscriber-ready</p>
       </div>
-      <div class="service">
-        <h3>System Optimization</h3>
-        <p>Refinement through testing, routing, and tuning to peak signal performance.</p>
+      <div class="card">
+        <h3>backbone reroutes</h3>
+        <p>&#x2713; damaged conduit reroutes<br>&#x2713; design advisory<br>&#x2713; end-to-end cutover</p>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="about container">
-    <h2>About MFS</h2>
-    <p>Morrow Fiber Solutions is a specialized field contractor offering fiber splicing, emergency repairs, and network build-outs across the Midwest and nationwide. We’re equipped for tight timelines, high standards, and critical environments.</p>
-    <p>We partner with ISPs, utilities, and private networks to deliver exacting fiber services where quality and speed matter most.</p>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="contact container">
-    <h2>Let’s Work</h2>
-    <p>Request a quote or service dispatch using the form below—or contact us directly.</p>
-    <p>📞 563-370-6686 | ✉️ info@mfibersolutions.com</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc628q47SO8OPgaWFR4VV71-FjCMYQ38l6LofSVCCg4ZVbY6Q/viewform?embedded=true" width="100%" height="1000">Loading…</iframe>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Morrow Fiber Solutions — Field-Tested Fiber. Built to Last.</p>
+  <section id="coverage" class="section">
+    <h2>// coverage</h2>
+    <div class="coverage-block">
+      <p>midwest-based operations.</p>
+      <p>routinely deployed in quad cities & des moines.</p>
+      <p>beyond those zones available by request.</p>
     </div>
-  </footer>
+  </section>
+
+  <section id="dispatch" class="section">
+    <h2>// dispatch</h2>
+    <p class="dispatch-label">need boots on fiber?</p>
+    <p class="contact-info">📞 563-370-6686</p>
+    <p class="contact-info">✉️ info@mfibersolutions.com</p>
+    <a href="mailto:info@mfibersolutions.com" class="dispatch-btn">initiate dispatch</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 MORROW FIBER SOLUTIONS // ops-grade since day one</p>
+</footer>
 
 </body>
 </html>
