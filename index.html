@@ -6,75 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morrow Fiber Solutions</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
 </head>
 
 <body>
+
     <header>
-        <img src="NewMFSLogo.png" alt="Morrow Fiber Solutions Logo" class="logo">
+        <img src="NewMFSLogo.png" alt="MFS Logo" class="logo">
         <nav>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#services">Services</a>
+            <a href="#about">Expertise</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Specialized Fiber Optic Solutions</h1>
-            <p>Tactical. Reliable. Professional.</p>
-            <a href="#contact" class="cta">Request Service</a>
-        </section>
+    <section id="intro">
+        <h1>Morrow Fiber Solutions</h1>
+        <p>Reliable Fiber Optic Solutions in the Midwest.</p>
+        <a class="cta" href="#contact">Request Service</a>
+    </section>
 
-        <section id="services">
-            <h2>What We Do</h2>
-            <ul class="service-list">
-                <li>Emergency Fiber Repair (24/7 Response)</li>
-                <li>ISP LCP & Cabinet Installs</li>
-                <li>Fusion Splicing (12ct – 1096ct+)</li>
-                <li>FTTH, MDU, and Backbone Network Builds</li>
-                <li>System Optimization & Troubleshooting</li>
-            </ul>
-        </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>24/7 Emergency Fiber Repairs</li>
+            <li>ISP & LCP Cabinet Installs</li>
+            <li>Fusion Splicing (12ct – 1096ct+)</li>
+            <li>MDU & FTTH Network Builds</li>
+            <li>System Optimization & Troubleshooting</li>
+        </ul>
+    </section>
 
-        <section id="expertise">
-            <h2>Why Choose MFS</h2>
-            <div class="expertise-points">
-                <div class="point">
-                    <h3>Precision & Efficiency</h3>
-                    <p>Field-tested processes ensuring minimal downtime and optimized network performance.</p>
-                </div>
-                <div class="point">
-                    <h3>Built for Reliability</h3>
-                    <p>Fully equipped Chevy 2500HD and specialized fiber trailer ready for any site, any conditions.</p>
-                </div>
-                <div class="point">
-                    <h3>Midwest Trusted</h3>
-                    <p>Serving ISPs, utilities, and private businesses across Iowa and surrounding states.</p>
-                </div>
+    <section id="about">
+        <h2>Why MFS?</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Tactical Precision</h3>
+                <p>Quick deployments, detailed splicing, minimal downtime.</p>
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="mailto:info@mfibersolutions.com" method="post" enctype="text/plain">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Tell us about your project" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="contact-details">
-                <p>Email: info@mfibersolutions.com</p>
-                <p>Phone: (563) 370-6686</p>
+            <div class="card">
+                <h3>Built for Fieldwork</h3>
+                <p>Equipped Chevy 2500HD & dedicated splicing trailer.</p>
             </div>
-        </section>
-    </main>
+            <div class="card">
+                <h3>Midwest Trusted</h3>
+                <p>Expert services across Iowa & neighboring states.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:youremail@mfibersolutions.com" method="post" enctype="text/plain">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Project details..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: youremail@mfibersolutions.com</p>
+        <p>Phone: (563) 370-6686</p>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Morrow Fiber Solutions | All Rights Reserved</p>
+        <p>&copy; 2025 Morrow Fiber Solutions</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
