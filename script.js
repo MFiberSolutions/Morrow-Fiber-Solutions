@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("MFS loaded. Tactical mode engaged.");
+  console.log("Morrow Fiber Solutions site initialized.");
 });
