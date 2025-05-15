@@ -1,4 +1,15 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('nav a');
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Morrow Fiber Solutions site initialized.");
+    navLinks.forEach(link => {
+        link.addEventListener('click', smoothScroll);
+    });
+
+    function smoothScroll(event) {
+        event.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        document.getElementById(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
 });
