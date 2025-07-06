@@ -32,6 +32,13 @@ nav {
   text-align: center;
   padding: 5rem 2rem;
   background-color: #fafafa;
+  background-image: url('NewMFSLogo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.95;
+}
+
 }
 
 .hero h1 {
