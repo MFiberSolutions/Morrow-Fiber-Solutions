@@ -35,8 +35,11 @@ nav {
   background-image: url('NewMFSLogo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  opacity: 0.95;
+background-size: 400px;
+  background-blend-mode: lighten;
+  opacity: 0.98;
+}
+
 }
 
 }
