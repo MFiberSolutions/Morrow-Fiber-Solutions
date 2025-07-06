@@ -1,76 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morrow Fiber Solutions</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Morrow Fiber Solutions</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <nav>
+    <div class="logo">Morrow Fiber Solutions</div>
+    <button id="toggleTheme">☀️</button>
+  </nav>
 
-    <header>
-        <img src="NewMFSLogo.png" alt="MFS Logo" class="logo">
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#about">Expertise</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="hero">
+    <h1>From outage to optimized — fast, clean, fiber solutions.</h1>
+    <p>Emergency repairs, OTDR testing, and precision fusion splicing — nationwide.</p>
+    <a href="mailto:info@mfibersolutions.com" class="cta">Request Emergency Support</a>
+  </header>
 
-    <section id="intro">
-        <h1>Morrow Fiber Solutions</h1>
-        <p>Reliable Fiber Optic Solutions in the Midwest.</p>
-        <a class="cta" href="#contact">Request Service</a>
-    </section>
+  <section class="services">
+    <h2>Core Services</h2>
+    <div class="grid">
+      <div class="card">Fusion Splicing<br><span>12–1096ct+</span></div>
+      <div class="card">24/7 Emergency Repair<br><span>Nationwide Rapid Response</span></div>
+      <div class="card">OTDR & Power Testing<br><span>Fault isolation & diagnostics</span></div>
+      <div class="card">MDU & Cabinet Installs<br><span>ISP, LCP, FDTs</span></div>
+      <div class="card">FTTH Builds<br><span>Full-scale deployments</span></div>
+      <div class="card">Network Optimization<br><span>Signal loss & pathway analysis</span></div>
+    </div>
+  </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>24/7 Emergency Fiber Repairs</li>
-            <li>ISP & LCP Cabinet Installs</li>
-            <li>Fusion Splicing (12ct – 1096ct+)</li>
-            <li>MDU & FTTH Network Builds</li>
-            <li>System Optimization & Troubleshooting</li>
-        </ul>
-    </section>
+  <section class="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> <a href="tel:5633706686">(563) 370‑6686</a></p>
+    <p><strong>Email:</strong> <a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></p>
+  </section>
 
-    <section id="about">
-        <h2>Why MFS?</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Tactical Precision</h3>
-                <p>Quick deployments, detailed splicing, minimal downtime.</p>
-            </div>
-            <div class="card">
-                <h3>Built for Fieldwork</h3>
-                <p>Equipped Chevy 2500HD & dedicated splicing trailer.</p>
-            </div>
-            <div class="card">
-                <h3>Midwest Trusted</h3>
-                <p>Expert services across Iowa & neighboring states.</p>
-            </div>
-        </div>
-    </section>
+  <footer>
+    <p>&copy; 2025 Morrow Fiber Solutions. All rights reserved.</p>
+  </footer>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="mailto:youremail@mfibersolutions.com" method="post" enctype="text/plain">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Project details..." required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p>Email: youremail@mfibersolutions.com</p>
-        <p>Phone: (563) 370-6686</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Morrow Fiber Solutions</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
