@@ -1,10 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('nav a, .cta').forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
+const toggle = document.getElementById('toggleTheme');
+toggle.addEventListener('click', () => {
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  toggle.textContent = isDark ? '🌙' : '☀️';
 });
