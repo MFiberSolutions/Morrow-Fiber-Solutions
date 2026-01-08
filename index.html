@@ -2,60 +2,386 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Morrow Fiber Solutions</title>
+  <title>Morrow Fiber Solutions | Fiber Splicing & City Builds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Morrow Fiber Solutions specializes in emergency fiber repair, high-count fusion splicing, and turnkey city builds for ISPs across the Midwest."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-  <div class="logo">
-    <img src="NewMFSLogo.png" alt="MFS Logo" /></div>
-    <a href="mailto:info@mfibersolutions.com" class="nav-cta">Contact</a>
-  </nav>
-  <head>
-  <style>
-    .logo img {
-      height: 100px; /* Adjust as needed */
-    }
-  </style>
-  </head>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <img src="mfs-logo.png" alt="Morrow Fiber Solutions Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-name">Morrow Fiber Solutions</span>
+          <span class="brand-tagline">Fiber Splicing & City Builds</span>
+        </div>
+      </a>
 
-  <header class="hero">
-    <h1>Professional Fiber Repair & Deployment</h1>
-    <p>We restore (and build) critical fiber infrastructure fast. Trusted by ISPs across the Midwest and beyond.</p>
-    <a href="mailto:info@mfibersolutions.com" class="cta">Request Emergency Dispatch</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#coverage" class="nav-link">Coverage</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </div>
   </header>
 
-  <section class="services">
-    <h2>What We Do</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>24/7 Emergency Splicing</h3>
-        <p>From line cuts to storm damage, we’re the first call when it goes down.</p>
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Trusted by ISPs across the Midwest</p>
+          <h1>
+            Professional fiber repair, high-count splicing, and
+            <span class="accent-text">turnkey city builds</span>.
+          </h1>
+          <p class="hero-text">
+            We design, build, and restore critical fiber infrastructure fast — from emergency cuts
+            to full city builds, and outages. Over
+            <strong>150+ projects completed</strong> and counting.
+          </p>
+
+          <div class="hero-actions">
+            <a href="tel:15633706686" class="btn btn-primary">
+              Request Emergency Dispatch
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              Schedule a Project Review
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span>24/7 on-call splicing</span>
+            <span>Multiple crews available</span>
+            <span>Midwest-based, working nationwide</span>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-card">
+            <h2>Deployment Snapshot</h2>
+            <ul class="hero-list">
+              <li><span class="label">Projects completed</span> <span class="value stat" data-target="150">0</span>+</li>
+              <li><span class="label">Max cable count</span> <span class="value">1096ct</span></li>
+              <li><span class="label">Response time</span> <span class="value">&lt; 4 hrs (typical)</span></li>
+              <li><span class="label">City builds</span> <span class="value">Metronet & other ISPs</span></li>
+            </ul>
+            <p class="hero-note">
+              From backbone rings and long-haul to dense FTTH city builds — we show up ready to splice.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h3>OTDR Diagnostics</h3>
-        <p>Pinpoint faults with precision and validate new builds instantly.</p>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats-strip">
+      <div class="container stats-inner">
+        <div class="stat-item reveal">
+          <span class="stat-label">Total projects</span>
+          <span class="stat-value">150+ </span>
+          <span class="stat-sub">city builds, repairs & specials</span>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-label">Crew capacity</span>
+          <span class="stat-value">Multi-crew</span>
+          <span class="stat-sub">pull, splice, and test in parallel</span>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-label">Availability</span>
+          <span class="stat-value">24 / 7</span>
+          <span class="stat-sub">emergency restoration</span>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-label">Region</span>
+          <span class="stat-value">Midwest-based</span>
+          <span class="stat-sub">working nationwide</span>
+        </div>
       </div>
-      <div class="card">
-        <h3>High-Count Fusion</h3>
-        <p>We splice everything from 12ct to 1096ct and beyond — with surgical accuracy.</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>What We Do</h2>
+          <p>
+            We plug directly into your construction plan or outage response — showing up with the
+            right gear, the right people, and accurate documentation.
+          </p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <h3>24/7 Emergency Splicing</h3>
+            <p>
+              From directional-drill strikes to storm damage, we mobilize fast with full
+              restoration kits, trailers, and test gear. We isolate, repair, and document — while
+              your customers get back online.
+            </p>
+            <ul class="card-list">
+              <li>Line cuts, storm and construction damage</li>
+              <li>Live-network restoration and hot cuts</li>
+              <li>Rapid-response dispatch with on-site updates</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>City Builds & Greenfield Projects</h3>
+            <p>
+              We build dense Metronet-style city projects end-to-end: reel management, pulling,
+              splicing, testing, and clean turn-over packages.
+            </p>
+            <ul class="card-list">
+              <li>Backbone & ring builds</li>
+              <li>Neighborhood & feeder routes</li>
+              <li>Multi-crew deployments for aggressive timelines</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>High-Count Fusion Splicing</h3>
+            <p>
+              Precision fusion splicing for everything from 12ct to 1096ct and beyond — including
+              high-density enclosures and data-center work.
+            </p>
+            <ul class="card-list">
+              <li>Trunk, lateral, and tie-in splicing</li>
+              <li>High-count backbone & long-haul</li>
+              <li>Clean, labeled trays and photos</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>FTTH, MDU & Specials</h3>
+            <p>
+              Drop networks, MDU risers, special builds, and one-off projects. We treat the “small
+              jobs” with the same discipline as full city builds.
+            </p>
+            <ul class="card-list">
+              <li>FTTH & MDU distribution</li>
+              <li>Special projects & overbuilds</li>
+              <li>OTDR and power-level validation</li>
+            </ul>
+          </article>
+        </div>
       </div>
-      <div class="card">
-        <h3>FTTH & MDU Builds</h3>
-        <p>We scale dense builds fast, clean, and without surprises.</p>
+    </section>
+
+    <!-- RECENT PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Selected Project Types</h2>
+          <p>
+            Every network is different. Here’s a snapshot of the kind of work we’re doing on the
+            ground right now.
+          </p>
+        </header>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <h3>Urban City Build – Metronet</h3>
+            <p>
+              Turnkey build of a dense urban ring: multiple LCPs, 432ct trunks, terminals, and
+              splicing with full OTDR traces and as-built documentation delivered to the PM team.
+            </p>
+            <ul class="project-meta">
+              <li>Full backbone & distribution</li>
+              <li>Multiple crews pulling & splicing</li>
+              <li>Tight schedule, zero missed milestones</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Emergency Backbone Restoration</h3>
+            <p>
+              Night-of response to a major cut affecting business customers. We isolated the fault,
+              deployed a temporary restoration, then completed permanent repair with minimal
+              downtime.
+            </p>
+            <ul class="project-meta">
+              <li>On-site in hours</li>
+              <li>Coordinated with NOC & field ops</li>
+              <li>OTDR & power-level validation</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>FTTH Expansion & MDU Overbuilds</h3>
+            <p>
+              Ongoing residential and multi-dwelling builds feeding new neighborhoods and
+              apartments — clean, labeled, and ready for activations.
+            </p>
+            <ul class="project-meta">
+              <li>New terminals & drops</li>
+              <li>MDU risers & closets</li>
+              <li>Documentation ready for provisioning teams</li>
+            </ul>
+          </article>
+        </div>
       </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>How We Work</h2>
+          <p>
+            Clear communication, predictable execution, and documentation that actually matches the
+            field.
+          </p>
+        </header>
+
+        <div class="process-grid">
+          <div class="process-step reveal">
+            <span class="step-number">01</span>
+            <h3>Plan</h3>
+            <p>
+              We review your design, specs, and timelines — then align on scope, risks, and field
+              details before anyone rolls.
+            </p>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-number">02</span>
+            <h3>Build</h3>
+            <p>
+              Crews mobilize with the right equipment, maps, and materials — pulling, splicing, and
+              dressing to your standards.
+            </p>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-number">03</span>
+            <h3>Test</h3>
+            <p>
+              We validate with OTDR and power readings, resolving issues in the field instead of
+              handing you a punch-list.
+            </p>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-number">04</span>
+            <h3>Turn-over</h3>
+            <p>
+              Final as-builts, labeling, photos, and test data — so your NOC, construction, and
+              provisioning teams can move fast.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COVERAGE -->
+    <section id="coverage" class="section section-alt">
+      <div class="container coverage-inner">
+        <div class="coverage-copy">
+          <h2>Coverage & Availability</h2>
+          <p>
+            We’re based in Iowa with active work across the Midwest — and we travel further for the
+            right projects and emergency work.
+          </p>
+          <ul class="coverage-list">
+            <li>Active work: Iowa, Nebraska, and surrounding states</li>
+            <li>Available for: city builds, specials & restoration nationwide</li>
+            <li>Multi-crew capacity for aggressive timelines</li>
+          </ul>
+          <p class="coverage-note">
+            Need support outside the Midwest? Reach out — we’ll let you know what’s realistic and
+            how fast we can be there.
+          </p>
+        </div>
+        <div class="coverage-panel reveal">
+          <h3>Ready when you are.</h3>
+          <p>
+            Tell us what you’re building—or what just went down—and we’ll get a plan in motion.
+          </p>
+          <ul class="coverage-cta">
+            <li><strong>Phone:</strong> <a href="tel:15633706686">(563) 370-6686</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <h2>Let’s Talk</h2>
+          <p>
+            Whether you’re planning a new city build, need extra splicing capacity, or have a live
+            outage — we’re here to help.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Phone:</strong> <a href="tel:15633706686">(563) 370-6686</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></li>
+            <li><strong>Base:</strong> Iowa-based, working nationwide</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:info@mfibersolutions.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="type">What do you need help with?</label>
+            <select id="type" name="type">
+              <option value="city-build">City build / large project</option>
+              <option value="emergency">Emergency repair</option>
+              <option value="maintenance">Maintenance / upgrades</option>
+              <option value="other">Other / not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Project details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Short description, timelines, and location…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note">
+            For urgent outages, please call <a href="tel:15633706686">(563) 370-6686</a> after sending this message.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Morrow Fiber Solutions LLC. All rights reserved.</span>
+      <span>Based in Iowa. Working nationwide.</span>
     </div>
-  </section>
-
-  <section class="contact">
-    <h2>Let’s Talk</h2>
-    <p>📞 <a href="tel:5633706686">(563) 370‑6686</a></p>
-    <p>📧 <a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Morrow Fiber Solutions LLC. Based in Iowa. Working nationwide.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
