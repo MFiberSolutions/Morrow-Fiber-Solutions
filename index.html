@@ -7,7 +7,7 @@
   <meta name="description" content="Morrow Fiber Solutions LLC. Fiber optic splicing, aerial and underground infrastructure, OTDR testing. Based in Eldridge, IA. Serving the Quad Cities, Omaha, and beyond." />
   <meta name="keywords" content="fiber optic splicing, fusion splicing, aerial fiber, OTDR, fiber contractor, Quad Cities, Omaha, Eldridge Iowa, ISP infrastructure" />
   <meta name="robots" content="index, follow" />
-  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="icon" type="image/png" href="NewMFSLogo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Oswald:wght@400;500;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -434,12 +434,12 @@
 
     .contact-grid {
       display: grid;
-      grid-template-columns: 1fr 1.3fr;
+      grid-template-columns: 1fr 1fr;
       gap: 5rem;
       margin-top: 3rem;
     }
 
-    .c-block { margin-bottom: 1.8rem; }
+    .c-block { margin-bottom: 2.5rem; }
 
     .c-label {
       font-family: var(--mono);
@@ -447,7 +447,7 @@
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
     }
 
     .c-val {
@@ -458,69 +458,14 @@
 
     .c-val a {
       text-decoration: none;
-      color: var(--warm);
-      transition: color 0.15s;
+      color: var(--accent);
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      border: 1px solid var(--accent);
+      transition: all 0.15s;
     }
 
-    .c-val a:hover { color: var(--white); }
-
-    .c-form {
-      display: flex;
-      flex-direction: column;
-      gap: 0.9rem;
-    }
-
-    .c-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
-
-    .c-field { display: flex; flex-direction: column; gap: 0.3rem; }
-
-    .c-field label {
-      font-family: var(--mono);
-      font-size: clamp(0.55rem, 1vw, 0.6rem);
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--dim);
-    }
-
-    .c-field input,
-    .c-field textarea,
-    .c-field select {
-      background: var(--bg);
-      border: 1px solid var(--rule);
-      color: var(--white);
-      font-family: var(--body);
-      font-size: 0.9rem;
-      padding: 0.65rem 0.8rem;
-      outline: none;
-      appearance: none;
-      transition: border-color 0.15s;
-      width: 100%;
-    }
-
-    .c-field input:focus,
-    .c-field textarea:focus,
-    .c-field select:focus { border-color: var(--accent); }
-
-    .c-field input::placeholder,
-    .c-field textarea::placeholder { color: var(--dim); opacity: 0.5; }
-
-    .c-field textarea { resize: vertical; min-height: 100px; }
-
-    .c-field select option { background: var(--bg2); }
-
-    .c-submit {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-top: 0.3rem;
-    }
-
-    .c-submit span {
-      font-family: var(--mono);
-      font-size: clamp(0.55rem, 1vw, 0.6rem);
-      color: var(--dim);
-      letter-spacing: 0.1em;
-    }
+    .c-val a:hover { background: var(--accent); color: var(--bg); }
 
     /* FOOTER */
     footer {
@@ -597,7 +542,6 @@
       .g-card { border-bottom: 1px solid var(--rule); }
       .about-grid { grid-template-columns: 1fr; }
       .contact-grid { grid-template-columns: 1fr; }
-      .c-row { grid-template-columns: 1fr; }
       footer { flex-direction: column; align-items: flex-start; padding: 2rem 1.5rem; }
       .ft-logo { height: 35px; }
     }
@@ -606,36 +550,12 @@
 <body>
 
 <nav>
-  <svg class="nav-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="globeGrad" cx="35%" cy="35%">
-        <stop offset="0%" style="stop-color:#e4ecf4;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#bfcfe0;stop-opacity:1" />
-      </radialGradient>
-    </defs>
-    <circle cx="100" cy="100" r="85" fill="none" stroke="#d49830" stroke-width="3"/>
-    <circle cx="100" cy="100" r="70" fill="url(#globeGrad)" opacity="0.9"/>
-    <line x1="100" y1="30" x2="100" y2="170" stroke="#d49830" stroke-width="1.5" opacity="0.6"/>
-    <line x1="50" y1="100" x2="150" y2="100" stroke="#d49830" stroke-width="1.5" opacity="0.6"/>
-    <line x1="65" y1="40" x2="135" y2="160" stroke="#d49830" stroke-width="1.5" opacity="0.4"/>
-    <line x1="135" y1="40" x2="65" y2="160" stroke="#d49830" stroke-width="1.5" opacity="0.4"/>
-    <circle cx="100" cy="100" r="50" fill="none" stroke="#d49830" stroke-width="1" opacity="0.5"/>
-    <circle cx="100" cy="100" r="35" fill="none" stroke="#d49830" stroke-width="1" opacity="0.5"/>
-    <path d="M 100 30 Q 145 50 150 100" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-    <path d="M 100 30 Q 55 50 50 100" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-    <path d="M 150 100 Q 145 150 100 170" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-    <path d="M 50 100 Q 55 150 100 170" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-    <circle cx="100" cy="100" r="6" fill="#d49830"/>
-    <circle cx="100" cy="100" r="6" fill="none" stroke="#d49830" stroke-width="1" opacity="0.3">
-      <animate attributeName="r" values="6;12" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.6;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-  </svg>
+  <img src="NewMFSLogo.png" alt="Morrow Fiber Solutions" class="nav-logo" />
   <ul class="nav-right">
     <li><a href="#work">Work</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#contact" class="nav-quote">Get a Quote</a></li>
+    <li><a href="#contact" class="nav-quote">Discuss Rates</a></li>
   </ul>
 </nav>
 
@@ -650,7 +570,7 @@
         Morrow Fiber Solutions is a fiber optic splicing outfit based out of Eldridge, Iowa. We run bucket trucks, carry OTDRs, and have our own splice lab. Aerial or underground, we show up ready and know what we're doing.
       </p>
       <div class="hero-btns">
-        <a href="#contact" class="btn btn-a">Get a Quote</a>
+        <a href="#contact" class="btn btn-a">Discuss Rates & Timelines</a>
         <a href="#work" class="btn btn-o">What We Do</a>
       </div>
     </div>
@@ -787,55 +707,15 @@
         <p class="c-val">Eldridge, Iowa</p>
       </div>
       <div class="c-block">
-        <p class="c-label">Email</p>
-        <p class="c-val"><a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></p>
-      </div>
-      <div class="c-block">
-        <p class="c-label">24/7 Emergency</p>
-        <p class="c-val"><a href="tel:+15630000000">Call us directly</a></p>
-      </div>
-      <div class="c-block">
-        <p class="c-label">Quotes</p>
-        <p class="c-val">Send fiber count, route type, and timeline. We get back to you within a day.</p>
+        <p class="c-label">Emergency 24/7</p>
+        <p class="c-val"><a href="tel:+15633706686">(563) 370-6686</a></p>
       </div>
     </div>
 
     <div class="rv">
-      <div class="c-form">
-        <div class="c-row">
-          <div class="c-field">
-            <label>Name</label>
-            <input type="text" placeholder="Your name" />
-          </div>
-          <div class="c-field">
-            <label>Company</label>
-            <input type="text" placeholder="ISP, GC, contractor" />
-          </div>
-        </div>
-        <div class="c-field">
-          <label>Email</label>
-          <input type="email" placeholder="you@company.com" />
-        </div>
-        <div class="c-field">
-          <label>What Do You Need</label>
-          <select>
-            <option value="" disabled selected>Pick one</option>
-            <option>Fusion Splicing</option>
-            <option>Aerial Splice Work</option>
-            <option>Underground Splice Work</option>
-            <option>OTDR Testing</option>
-            <option>Emergency Response</option>
-            <option>Something Else</option>
-          </select>
-        </div>
-        <div class="c-field">
-          <label>Details</label>
-          <textarea placeholder="Fiber count, location, timeline, whatever helps"></textarea>
-        </div>
-        <div class="c-submit">
-          <button type="button" class="btn btn-a">Send</button>
-          <span>We'll get back to you.</span>
-        </div>
+      <div class="c-block">
+        <p class="c-label">Discuss Rates & Timelines</p>
+        <p class="c-val"><a href="mailto:info@mfibersolutions.com">info@mfibersolutions.com</a></p>
       </div>
     </div>
   </div>
@@ -844,27 +724,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="ft-left">
-    <svg class="ft-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <radialGradient id="globeGrad2" cx="35%" cy="35%">
-          <stop offset="0%" style="stop-color:#e4ecf4;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#bfcfe0;stop-opacity:1" />
-        </radialGradient>
-      </defs>
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#d49830" stroke-width="3"/>
-      <circle cx="100" cy="100" r="70" fill="url(#globeGrad2)" opacity="0.9"/>
-      <line x1="100" y1="30" x2="100" y2="170" stroke="#d49830" stroke-width="1.5" opacity="0.6"/>
-      <line x1="50" y1="100" x2="150" y2="100" stroke="#d49830" stroke-width="1.5" opacity="0.6"/>
-      <line x1="65" y1="40" x2="135" y2="160" stroke="#d49830" stroke-width="1.5" opacity="0.4"/>
-      <line x1="135" y1="40" x2="65" y2="160" stroke="#d49830" stroke-width="1.5" opacity="0.4"/>
-      <circle cx="100" cy="100" r="50" fill="none" stroke="#d49830" stroke-width="1" opacity="0.5"/>
-      <circle cx="100" cy="100" r="35" fill="none" stroke="#d49830" stroke-width="1" opacity="0.5"/>
-      <path d="M 100 30 Q 145 50 150 100" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-      <path d="M 100 30 Q 55 50 50 100" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-      <path d="M 150 100 Q 145 150 100 170" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-      <path d="M 50 100 Q 55 150 100 170" fill="none" stroke="#d49830" stroke-width="2" opacity="0.8"/>
-      <circle cx="100" cy="100" r="6" fill="#d49830"/>
-    </svg>
+    <img src="NewMFSLogo.png" alt="MFS" class="ft-logo" />
     <p class="ft-copy">
       Morrow Fiber Solutions LLC<br/>
       Eldridge, IA
